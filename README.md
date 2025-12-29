@@ -1,5 +1,4 @@
-# YOLOv3 Face Detection (PyTorch + OpenCV)
-# AI-Systems-and-Deep-Learning (by Jayant Gautam)
+# YOLOv3 Face Detection (PyTorch + OpenCV) (by Jayant Gautam)
 
 This project implements a complete YOLOv3-based face detection pipeline, covering data preparation, model training, ONNX export, and real-time inference using OpenCV.
 
