@@ -9,7 +9,7 @@ from tqdm import tqdm
 import os
 
 
-# test if pytorch computations can be done of the graphics card instead of the regular processor
+# test if pytorch computations can be done of the graphics card instead of the regular processors
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
 
@@ -1067,4 +1067,5 @@ test_loop(model, test_loader,
           iou_threshold=0.6,  # try 0.6 or 0.7 to be more aggressive
           conf_threshold=0.6,  # try 0.5 or even 0.6 for stricter filtering
           anchors=scaled_anchors,
+
           plot=True)
