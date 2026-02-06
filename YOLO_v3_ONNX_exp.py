@@ -35,7 +35,7 @@ def iou(box1, box2):
     '''
 
     # IoU score for prediction and label
-    # box1 (prediction) and box2 (label) are both in [x, y, width, height] format
+    # box1 (prediction) and box2 (label) are both in [x, y, width, height] formats
         
     # Box coordinates of prediction
     b1_x1 = box1[..., 0:1] - box1[..., 2:3] / 2
@@ -1115,3 +1115,4 @@ torch.onnx.export(
     dynamic_axes=None
 
 )    
+
