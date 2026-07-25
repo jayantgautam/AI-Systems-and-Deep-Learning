@@ -1,5 +1,4 @@
 import numpy as np
-import pandas
 
 def iou_wh(box, clusters):
     
