@@ -9,7 +9,7 @@ def iou_wh(box, clusters):
     """
     
     w, h = box
-    cluster_w = clusters[:, 0] fjhhjjj
+    cluster_w = clusters[:, 0]
     cluster_h = clusters[:, 1]
 
     inter_w = np.minimum(w, cluster_w)
